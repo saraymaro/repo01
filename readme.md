@@ -38,8 +38,7 @@ Vuelve a ejecutar el comando git remote –v nuevamente y explica el porque ahor
 Sube los cambios que hemos subido al snapshot local (commit) hacía al repositorio remoto.  Ves al repositorio remoto (en este caso GitHub) y comprueba que se haya realizado el commit
 correctamente y observa que pasa en el repositorio ¿Observas algo peculiar?
 >![Alt text](img/6.png)
-Observamos que se ha hecho.
 >![Alt text](img/7.png)
-Vemos que se han efectuado los commits.
+Observamos que se ha hecho y vemos que se han efectuado los commits.
 
 
