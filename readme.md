@@ -21,10 +21,22 @@ repositorio (con git status) y haz un snapshot (commit) del fichero hacía nuest
 > Hacemos commit y miramos el estado con git status, vemos que esta en la rama master y que no hay nada nuevo para hacer commit. 
 
 Intenta subir los ficheros al repositorio remoto mediante al comando git push ¿Se te ocurre que está pasando? (si no lo sabes aún no te preocupes)
+Ejecuta el comando git remote –v e investiga porque no nos aparece nada
+
+>No nos aparecía nada porque no habíamos creado el repositorio en github.
+
+Crea un repositorio remoto llamado repo01, asócialo a tu repositorio local
 >![Alt text](img/4.png)
 Creamos el repositorio en github.
 >![Alt text](img/3.png)
-Hacemos push con el repositorio que hemos creado, pero como vemos, este documento (readme) no se visualiza.
+Hacemos push con el repositorio que hemos creado.
 
-Ejecuta el comando git remote –v e investiga porque no nos aparece nada
+Vuelve a ejecutar el comando git remote –v nuevamente y explica el porque ahora si que aparece
+>![Alt text](img/5.png)
+>Ahora nos aparece porque se ha hecho correctamente.
 
+Sube los cambios que hemos subido al snapshot local (commit) hacía al repositorio remoto
+□ 1.9 – Ves al repositorio remoto (en este caso GitHub) y comprueba que se haya realizado el commit
+correctamente y observa que pasa en el repositorio ¿Observas algo peculiar?
+
+>
